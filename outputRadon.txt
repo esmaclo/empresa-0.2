@@ -1,0 +1,44 @@
+C:\Users\Nano\Desktop\empresa-master\empresa-master\departamento.py
+    LOC: 26
+    LLOC: 20
+    SLOC: 20
+    Comments: 0
+    Multi: 0
+    Blank: 6
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+C:\Users\Nano\Desktop\empresa-master\empresa-master\empleado.py
+    LOC: 33
+    LLOC: 24
+    SLOC: 24
+    Comments: 0
+    Multi: 0
+    Blank: 9
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+C:\Users\Nano\Desktop\empresa-master\empresa-master\Empresa.py
+    LOC: 10
+    LLOC: 7
+    SLOC: 7
+    Comments: 0
+    Multi: 0
+    Blank: 3
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+C:\Users\Nano\Desktop\empresa-master\empresa-master\test_departamento.py
+    LOC: 39
+    LLOC: 30
+    SLOC: 35
+    Comments: 5
+    Multi: 0
+    Blank: 4
+    - Comment Stats
+        (C % L): 13%
+        (C % S): 14%
+        (C + M % L): 13%

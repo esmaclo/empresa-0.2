@@ -1,0 +1,185 @@
+************* Module empresa-master
+C:  1, 0: Invalid module name "empresa-master" (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module empresa-master.departamento
+C: 26, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing class docstring (missing-docstring)
+C:  4, 0: Old-style class defined. (old-style-class)
+C: 10, 4: Missing method docstring (missing-docstring)
+C: 13, 4: Missing method docstring (missing-docstring)
+C: 19, 4: Missing method docstring (missing-docstring)
+C: 22, 4: Missing method docstring (missing-docstring)
+************* Module empresa-master.empleado
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing class docstring (missing-docstring)
+C:  4, 0: Old-style class defined. (old-style-class)
+R:  5, 4: Too many arguments (8/5) (too-many-arguments)
+C: 14, 4: Missing method docstring (missing-docstring)
+C: 17, 4: Missing method docstring (missing-docstring)
+C: 20, 4: Missing method docstring (missing-docstring)
+C: 23, 4: Missing method docstring (missing-docstring)
+C: 26, 4: Missing method docstring (missing-docstring)
+C: 29, 4: Missing method docstring (missing-docstring)
+C: 32, 4: Missing method docstring (missing-docstring)
+************* Module empresa-master.Empresa
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing class docstring (missing-docstring)
+C:  4, 0: Old-style class defined. (old-style-class)
+R:  4, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module empresa-master.test_departamento
+C: 39, 0: Final newline missing (missing-final-newline)
+W:  4, 0: Redefining built-in 'any' (redefined-builtin)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  4, 0: Wildcard import mockito (wildcard-import)
+W:  5, 0: Wildcard import departamento (wildcard-import)
+W:  5, 0: Relative import 'departamento', should be 'empresa-master.departamento' (relative-import)
+W:  6, 0: Wildcard import empleado (wildcard-import)
+W:  6, 0: Relative import 'empleado', should be 'empresa-master.empleado' (relative-import)
+C:  9, 0: Missing class docstring (missing-docstring)
+C: 10, 4: Missing method docstring (missing-docstring)
+C: 12, 8: Invalid variable name "e1" (invalid-name)
+C: 13, 8: Invalid variable name "e2" (invalid-name)
+C: 14, 8: Invalid variable name "e3" (invalid-name)
+C: 28, 4: Missing method docstring (missing-docstring)
+C: 29, 8: Invalid variable name "e1" (invalid-name)
+C: 30, 8: Invalid variable name "e2" (invalid-name)
+C: 31, 8: Invalid variable name "e3" (invalid-name)
+R:  9, 0: Too many public methods (47/20) (too-many-public-methods)
+W:  4, 0: Unused import spy from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import never from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import verifyNoMoreInteractions from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import any from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import Mock from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import VerificationError from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import verifyZeroInteractions from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import verify from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import contains from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import times from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import ArgumentError from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import inorder from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import unstub from wildcard import (unused-wildcard-import)
+
+
+Report
+======
+83 statements analysed.
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |34     |34       |=          |
++-----------+-------+---------+-----------+
+|refactor   |3      |3        |=          |
++-----------+-------+---------+-----------+
+|warning    |19     |19       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++---------------------------------+------+--------+---------+-----------+
+|module                           |error |warning |refactor |convention |
++=================================+======+========+=========+===========+
+|empresa-master.test_departamento |0.00  |100.00  |33.33    |32.35      |
++---------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------+------------+
+|message id              |occurrences |
++========================+============+
+|missing-docstring       |22          |
++------------------------+------------+
+|unused-wildcard-import  |13          |
++------------------------+------------+
+|invalid-name            |7           |
++------------------------+------------+
+|wildcard-import         |3           |
++------------------------+------------+
+|old-style-class         |3           |
++------------------------+------------+
+|relative-import         |2           |
++------------------------+------------+
+|missing-final-newline   |2           |
++------------------------+------------+
+|too-many-public-methods |1           |
++------------------------+------------+
+|too-many-arguments      |1           |
++------------------------+------------+
+|too-few-public-methods  |1           |
++------------------------+------------+
+|redefined-builtin       |1           |
++------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 3.25/10 (previous run: 3.25/10, +0.00)
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |86     |90.53 |86       |=          |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|empty     |9      |9.47  |9        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+External dependencies
+---------------------
+::
+
+    unittest (empresa-master.test_departamento)
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |5      |5          |=          |0.00        |20.00    |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |16     |16         |=          |18.75       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
